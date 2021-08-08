@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page-container{
+    box-shadow: 5px 5px 10px #999;
+    width: 70%;
+    height: 83vh;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-top: 20%;
+    background-color: gray;
+}
+.page-container .container{
+    display: flex;
+    /* height: 100vh; */
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 180px;
+    justify-content: center;
+    color: #ffff;
+    padding-top: 8%;
+}
+h1{
+    font-weight: 700;
+    font-family: 'Big Shoulders Display';
+    margin: 10% 10%;
+    padding-top: 10%;
+}
+p{
+    padding-top: 5%;
+    padding-bottom: 40%;
+    margin: 10% 10%;
+    height: 40%;
+}
+.cta{
+    background-color: #f2f2f2;
+    
+    margin-top: 10% 10%;
+    text-decoration: none;
+    color: #026972;
+    font-weight: 700;
+    font-size: 1.5em;
+    border-radius: 50px;
+    align-self: flex-start;
+    margin-left: 10%;
+    padding: 5%;
+}
+body{
+    font-size: 15px;
+    font-family: Lexend deca;
+}
+.left-slide{
+    background-color: hsl(31, 77%, 52%);
+}
+.left-slide a{
+    color: hsl(31, 77%, 52%);
+}
+
+.middle-slide{
+    
+    background-color: hsl(184, 100%, 22%)
+}
+.middle-slide a{
+    color: hsl(184, 100%, 22%);
+}
+.right-slide{
+    
+    background-color: hsl(179, 100%, 13%)
+}
+.right-slide a{
+    color: hsl(179, 100%, 13%);
+}
